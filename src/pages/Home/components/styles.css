@@ -1,0 +1,12 @@
+.sidebar-button{
+    margin-left: 10px;
+    margin-right: 25px;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.096);
+        cursor: pointer;
+    }
+}

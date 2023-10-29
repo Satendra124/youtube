@@ -1,0 +1,40 @@
+{
+    "channel": {
+        "_id": "id",
+        "name": "name",
+        "subscribers": 0,
+        "thumbnail": "thumbnail_url",
+        "email": "email",
+        "password": "passwordHash",
+        "subscribedTo": [
+            "id"
+        ],
+        "likedVideos": [
+            "id"
+        ],
+        "videos": [
+            {
+                "_id": "id",
+                "videoId": "videoId",
+                "url": "url",
+                "title": "title",
+                "description": "description",
+                "thumbnail": "thumbnail_url",
+                "views": 0,
+                "uploadedAt": "uploadedAt",
+                "likes": 0,
+                "tags": [],
+                "comments": [
+                    {
+                        "_id": "id",
+                        "text": "text",
+                        "commentedBy": "id",
+                        "likes": 0,
+                        "commentedAt": "commentedAt"
+                    }
+                ]
+            }
+        ]
+    }
+}
+
